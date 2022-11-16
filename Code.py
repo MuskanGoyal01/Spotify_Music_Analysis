@@ -4,7 +4,7 @@ import plotly.express as px
 import seaborn as sns
 
 # Loading the DataSet
-df = pd.read_csv("data.csv")
+df = pd.read_csv("Statics/data.csv")
 print(df.head())
 
 # Data Pre-Processing
