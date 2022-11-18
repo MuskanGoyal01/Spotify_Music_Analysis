@@ -239,7 +239,7 @@ continuous_cols = ['acousticness', 'danceability', 'duration_ms', 'energy',
 discrete_cols = ['key','mode','time_signature','target']
 ```
 
-1.[ ] Distributions of Continuous Features
+1. [ ] Distributions of Continuous Features
 
 ```commandline
 fig, axes = plt.subplots(5,2)
@@ -259,7 +259,7 @@ plt.show()
 * Similarly, we can observe for the feature `loudness`, a reasonable threshold would be something around -5 approximately, we can predict that more users like songs when loudness < -5 and dislike songs with loudness > -5
 * We can see bimodality for `tempo` when the user dislikes the songs, other features are mostly unimodal in nature
 
-2.[ ] Distributions of Discrete Features
+2. [ ] Distributions of Discrete Features
 ```commandline
 sns.set_palette("Set1")
 fig, axes = plt.subplots(2,2)
